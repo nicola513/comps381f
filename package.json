@@ -1,14 +1,16 @@
 {
-    "name": "server",
-    "description": "MVC ODM App",
-    "author": "Ng Tsz Ching Nicola <s1153552@ouhk.edu.hk>,Kwok Pui Hei <s1151285@ouhk.edu.hk>",
-    "version": "0.0.1",
-    "dependencies": {
-        "mongoose": "*",
-		"express" : "*",
-		"ejs" : "*"
-    },
-    "engine": "node >= 0.10.0",
-    "scripts": {"start": "node server"}
+  "name": "server",
+  "description": "MVC ODM App",
+  "author": "Ng Tsz Ching Nicola <s1153552@ouhk.edu.hk>,Kwok Pui Hei <s1151285@ouhk.edu.hk>",
+  "version": "0.0.1",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "ejs": "*",
+    "express": "^4.14.0",
+    "mongoose": "^4.5.6"
+  },
+  "engine": "node >= 0.10.0",
+  "scripts": {
+    "start": "node server"
+  }
 }
-
